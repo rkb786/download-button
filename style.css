@@ -1,0 +1,210 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkalami', serif;
+}
+
+.container {
+
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: #146e50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+.download-one h4 {
+
+    text-align: center;
+    position: relative;
+    top: -50px;
+    text-transform: uppercase;
+    color: #44dfb0;
+    
+}
+
+
+.download-one .download-image {
+
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    transition: ease 0.3s;
+    background: #127558;
+    box-shadow: 3px 4px 5px rgb(7, 7, 7);
+    padding: 40px 40px 30px;
+    border-radius: 8px;
+    transition: ease 0.3s;
+    cursor: pointer;
+    
+}
+
+.download-one .download-image:hover {
+
+    background: #14C38E;
+    box-shadow: 5px 4px 10px rgb(7, 7, 7);
+    
+
+}
+
+
+
+.img-i {
+    position: relative;
+    bottom: -1px;
+    color: azure;
+    
+    
+}
+
+.download-one:hover .img-i {
+
+    transform: translateY(2px);
+    
+    
+}
+
+/* Download PDF */
+
+.download-two .download-image {
+
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    transition: ease 0.3s;
+    text-align: center;
+    background: #127558;
+    box-shadow: 3px 4px 5px rgb(7, 7, 7);
+    padding: 40px 40px 30px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.download-two h4 {
+
+    text-align: center;
+    position: relative;
+    top: -60px;
+    text-transform: uppercase;
+    color: #44dfb0;
+    
+}
+
+.download-two .download-image:hover {
+
+    background: #14C38E;
+    box-shadow: 5px 4px 10px rgb(7, 7, 7);
+
+}
+
+
+
+.img-i {
+    position: relative;
+    bottom: -1px;
+    color: azure;
+    transition: ease-in-out 0.3s;
+}
+
+.download-two:hover .img-i {
+
+    transform: translateY(2px);
+}
+
+/* Download Word */
+
+.download-three .download-image {
+
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    transition: ease 0.3s;
+    text-align: center;
+    background: #127558;
+    box-shadow: 3px 4px 5px rgb(7, 7, 7);
+    padding: 40px 40px 30px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.download-three h4 {
+
+    text-align: center;
+    position: relative;
+    top: -60px;
+    text-transform: uppercase;
+    color: #44dfb0;
+    
+}
+
+.download-three .download-image:hover {
+
+    background: #14C38E;
+    box-shadow: 5px 4px 10px rgb(7, 7, 7);
+
+}
+
+
+
+.img-i {
+    position: relative;
+    bottom: -1px;
+    color: azure;
+    transition: ease-in-out 0.3s;
+}
+
+.download-three:hover .img-i {
+
+    transform: translateY(2px);
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .container {
+
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .download-one h4 {
+
+        margin-top: 25px;
+    }
+
+    .download-two h4 {
+
+        margin-top: 75px;
+        margin-bottom: -15px;
+    }
+
+    .download-three h4 {
+
+        margin-top: 75px;
+        margin-bottom: -15px;
+    }
+    
+}
+

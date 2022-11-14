@@ -1,0 +1,16 @@
+vendor's :
+1. Responsive grid system (Google it).
+2. Normalize (Google it).
+3. HTML5 Shiv (Google it).
+4. respond js (Google it).
+5. selectivizr (Google it).
+6. Mixitup (Google it). ----> For filtering the tabs.
+7. Jquery Waypionts (Google it). ----> For Sticky Menu.
+8. Can I use css (Google it). ------> For Browser Compability
+9. Html Validator (Google it). -----> W3C
+10. CSS Validator (Google it). -----> W3C.
+11. Tiny jgp (Google it). ---------> For compressing the Images (jpg & png).
+12. CSS, JS minifier & unminifier (Google it). ---------> For Minified version.
+13. GTmetrix (For performance report checkup). ---------> gtmetrix.com
+14. Google mobile friendly test (Google it). ----------> For responsive checking.
+
